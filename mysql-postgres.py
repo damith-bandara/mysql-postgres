@@ -4,8 +4,8 @@ from psycopg2 import sql
 
 # MySQL configuration
 mysql_config = {
-    'user': 'dapr1',
-    'password': 'DNyh#Nfl!3WS8%?UP}m0xL)*.dBOxQKV',
+    'user': 'usr',
+    'password': 'pwd',
     'host': 'ls-4b69d5e205fcb767c7071495e95c05c850d2790e.cfygi06885d9.ap-southeast-1.rds.amazonaws.com',
     'database': 'dbtest'
 }
@@ -13,8 +13,8 @@ mysql_config = {
 # PostgreSQL configuration
 postgres_config = {
     'dbname': 'dbtestpostgres',
-    'user': 'dapr1',
-    'password': 'Vo3R+P|lALD1cP>bK1m?-f:}{p;U:wlw',
+    'user': 'usr',
+    'password': 'pwd',
     'host': 'ls-e9068b28bfe4b9e28ca3df20871843b604506fde.cfygi06885d9.ap-southeast-1.rds.amazonaws.com'
 }
 
