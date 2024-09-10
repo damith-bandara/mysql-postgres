@@ -22,7 +22,7 @@ def fetch_mysql_data():
     """Fetch data from MySQL database."""
     connection = mysql.connector.connect(**mysql_config)
     cursor = connection.cursor(dictionary=True)
-    query = "SELECT * FROM Employees"  # Modify this as needed
+    query = "SELECT * FROM EMPLOYEES"  # Modify this as needed
     cursor.execute(query)
     data = cursor.fetchall()
     cursor.close()
